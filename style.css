@@ -1,0 +1,88 @@
+.navbar-item {
+  font-size: 22px;
+  padding: 15px;
+
+  font-weight: bold;
+  
+
+}
+
+.navbar { 
+  background-color: aquamarine;
+}
+
+.name {
+ padding: 15px 15px 7px 40px;
+}
+
+.title-section {
+  flex-basis: 100%;
+  text-decoration: underline;
+  
+}
+
+
+
+.card{
+  width: 22%;
+}
+
+
+.container{
+  
+}
+
+
+.form {
+  text-align: center;
+  border: 2px double black;
+  border-radius: 25px;
+  width: 500px;
+  background-color: white;
+
+  margin: 0 auto;
+  min-height: 380px;
+  
+  
+}
+
+.field {
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+.container {
+  padding: 10px;
+}
+
+.container-projects {
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  /* Center the container in middle on horizontal axis */
+ 
+
+  /* Add empty space above the container (20% of the view height) */
+  margin-top: 20vh;
+}
+
+
+.card-footer {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+
+
