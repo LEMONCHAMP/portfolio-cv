@@ -48,6 +48,7 @@
 
 
 .form {
+ 
   text-align: center;
   border: 2px double violet;
   border-radius: 25px;
@@ -56,6 +57,7 @@
 
   margin: 0 auto;
   min-height: 380px;
+  padding: 10px;
   
   
 }
@@ -64,8 +66,7 @@
   padding: 10px;
 }
 
-
-svg {
+.skills-container svg {
   width: 13%;
   height: 13%;
   padding: 10px;
@@ -76,15 +77,31 @@ svg {
   transition: 0.3s;
 }
 
-
-/* Disable grayscale on hover */
-svg:hover {
+.skills-container svg:hover {
   -webkit-filter: grayscale(0);
   filter: none;
   width: 15%;
   height: 15%;
 }
 
+svg {
+  
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  height: 5%;
+  width: 5%;
+  
+  
+}
+
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
 
 
 .container {
