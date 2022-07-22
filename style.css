@@ -74,7 +74,7 @@
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .skills-container svg:hover {
@@ -84,7 +84,7 @@
   height: 15%;
 }
 
-svg {
+.contact-info svg {
   
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -128,6 +128,26 @@ svg {
   justify-content: space-evenly;
 }
 
+hr.solid {
+  border-top: 3px solid aquamarine;
+}
+
+.footer-links svg {
+ 
+}
+
+
+.content {
+  padding-top: 50px;
+}
+
+.footer {
+  padding: 1.5rem 6rem;
+}
+
+.footer-links {
+  display: flex;
+}
 
 
 
