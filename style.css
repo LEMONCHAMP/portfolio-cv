@@ -1,4 +1,9 @@
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 
 .navbar-item {
   font-size: 22px;
@@ -25,6 +30,17 @@
   padding-bottom: 5px;
 }
 
+.card{
+  width: 22%;
+  transition: width 1s, height 1s, transform 1s;
+}
+
+.card:hover {
+
+  width: 30%;
+  height: 30%;
+}
+
 .title-name {
   color: blueviolet;
  padding: 15px 15px 7px 40px;
@@ -39,9 +55,7 @@
 
 
 
-.card{
-  width: 22%;
-}
+
 
 
 
@@ -74,7 +88,7 @@
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
-  transition: 0.4s;
+  transition: width 1s, height 1s, transform 1s;
 }
 
 .skills-container svg:hover {
@@ -132,9 +146,7 @@ hr.solid {
   border-top: 3px solid aquamarine;
 }
 
-.footer-links svg {
- 
-}
+
 
 
 .content {
@@ -149,6 +161,9 @@ hr.solid {
   display: flex;
 }
 
+.content svg:hover {
+  fill: violet;
+}
 
 
 
